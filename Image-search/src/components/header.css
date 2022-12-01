@@ -1,0 +1,30 @@
+
+body{
+    background-color: aliceblue;
+}
+.bookmark{
+ border-radius: 5px;
+}
+.head{
+    width: 600px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.heading{
+    margin-left: -100px;
+}
+.form{
+    width: 500px;
+    height: 38px;
+    border-radius: 5px;
+}
+#imagehover:hover{
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+      0 24px 46px var(--box-shadow-color);
+      transform: scale(1.06) translateZ(0);
+      border: 1px solid pink;
+}
